@@ -77,11 +77,8 @@
             <div>Login MY_INTROVERT</div>
           </div>
           <div class="card-body p-4">
-            <?php if (!empty($error_message)): ?>
               <div class="alert alert-danger" role="alert">
-                <?= htmlspecialchars($error_message) ?>
               </div>
-            <?php endif; ?>
 
             <form action="login.html" method="POST">
               <div class="mb-3">
@@ -111,7 +108,7 @@
               </div>
               <button type="submit" class="btn btn-primary w-100">Login</button>
               <p class="mt-4 text-center text-muted">
-                Belum punya akun? <a class="fst-italic" href="register.php">Daftar di sini</a>
+                Belum punya akun? <a class="fst-italic" href="register.html">Daftar di sini</a>
               </p>
             </form>
           </div>
